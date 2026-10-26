@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,8 +20,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        
-        if(config('app.env') === 'production') {
+        $isLocalHost = in_array(request()->getHost(), ['localhost', '127.0.0.1', '::1', '[::1]'], true);
+
+        if (! app()->environment('local', 'testing') || ! $isLocalHost) {
             URL::forceScheme('https');
         }
     }
