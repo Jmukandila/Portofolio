@@ -10,6 +10,7 @@ RUN composer dump-autoload --optimize --no-dev \
  && php artisan route:cache \
  && php artisan view:cache \
  && php artisan event:cache
+ 
 
 FROM node:22-alpine AS assets
 WORKDIR /app
@@ -18,6 +19,8 @@ RUN npm ci --no-audit --no-fund
 COPY . .
 COPY --from=vendor /var/www/html/vendor ./vendor
 RUN npm run build
+RUN php artisan storage:link \
+
 
 FROM jkaninda/nginx-php-fpm:${PHP_VERSION}
 WORKDIR /var/www/html
