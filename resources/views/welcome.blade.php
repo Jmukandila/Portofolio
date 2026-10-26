@@ -58,7 +58,7 @@
                             Josh Kaninda
                         </span>
                         <span class="text-[11px] text-neutral-500 dark:text-neutral-400 font-mono">
-                            ECE Paris • Bac+3 CDA
+                            ECE Paris • Bac+3 
                         </span>
                     </div>
                 </a>
@@ -189,11 +189,10 @@
                         <!-- Bio -->
                         <p class="mt-4 text-base sm:text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                             <span data-lang="fr">
-                            <span data-lang="fr">
-                                Étudiant en dernière année de Bachelor Concepteur Développeur d'Applications, je cherche un stage de fin d'études de 5 à 6 mois. <strong>Rigoureux</strong> et <strong>autonome</strong>, je conçois des architectures backend fiables et des interfaces web modernes. Spécialisé dans l'écosystème <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, <strong>Python</strong> et <strong>SQL</strong>, je m'intéresse vivement aux enjeux de l'<strong>IA</strong> et de la <strong>Data</strong>. J'ai conçu et déployé des projets réels en production au Canada, à Londres, à Bruxelles et à Kinshasa.
+                                Étudiant en dernière année de Bachelor Concepteur Développeur d'Applications, je cherche un stage de fin d'études de 6 mois. <strong>Rigoureux</strong> et <strong>autonome</strong>, je conçois des architectures backend fiables et des interfaces web modernes. Spécialisé dans l'écosystème <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, <strong>Python</strong> et <strong>SQL</strong>, je m'intéresse vivement aux enjeux de l'<strong>IA</strong> et de la <strong>Data</strong>. J'ai conçu et déployé des projets réels en production au Canada, à Londres, à Bruxelles et à Kinshasa.
                             </span>
                             <span data-lang="en" class="hidden">
-                                Final-year student in Application Development, seeking a 5-6 month final internship. <strong>Meticulous</strong> and <strong>self-driven</strong>, I design robust backend architectures and modern web interfaces. Specialized in the <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, <strong>Python</strong>, and <strong>SQL</strong> ecosystem, I am deeply interested in <strong>AI</strong> and <strong>Data</strong>. I have designed and deployed real-world projects in production across Canada, London, Brussels, and Kinshasa.
+                                Final-year student in Application Development, seeking a 6-month final internship. <strong>Meticulous</strong> and <strong>self-driven</strong>, I design robust backend architectures and modern web interfaces. Specialized in the <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, <strong>Python</strong>, and <strong>SQL</strong> ecosystem, I am deeply interested in <strong>AI</strong> and <strong>Data</strong>. I have designed and deployed real-world projects in production across Canada, London, Brussels, and Kinshasa.
                             </span>
                         </p>
 
@@ -204,11 +203,11 @@
                                 <div>
                                     <div class="font-semibold text-neutral-900 dark:text-white">
                                         <span data-lang="fr">Objectif : Stage de fin d'études de 6 mois</span>
-                                        <span data-lang="en" class="hidden">Target: 6-month final-year internship</span>
+                                        <span data-lang="en">Target: 6-month final-year internship</span>
                                     </div>
                                     <div class="text-xs text-neutral-600 dark:text-neutral-400 mt-0.5">
                                         <span data-lang="fr">Disponible à partir d'<strong>Avril 2027</strong> • Région parisienne .</span>
-                                        <span data-lang="en" class="hidden">Available starting <strong>April 2027</strong> • Paris region .</span>
+                                        <span data-lang="en">Available starting <strong>April 2027</strong> • Paris region .</span>
                                     </div>
                                 </div>
                             </div>
@@ -597,16 +596,31 @@
                             <div class="relative">
                                 <span class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-neutral-900 dark:bg-white"></span>
                                 <div class="flex items-baseline justify-between flex-wrap gap-1">
-                                    <h4 class="font-bold text-sm text-neutral-900 dark:text-white">Développeur Full-Stack</h4>
-                                    <span class="text-xs font-mono text-neutral-500">Jan. 2026 – Sept. 2026</span>
+                                    <h4 class="font-bold text-sm text-neutral-900 dark:text-white">
+                                        <span data-lang="fr">Développeur Full-Stack</span>
+                                        <span data-lang="en" class="hidden">Full-Stack Developer</span>
+                                    </h4>
+                                    <span class="text-xs font-mono text-neutral-500">
+                                        <span data-lang="fr">Janv. 2026 – Sept. 2026</span>
+                                        <span data-lang="en" class="hidden">Jan. 2026 – Sep. 2026</span>
+                                    </span>
                                 </div>
                                 <div class="text-xs text-neutral-600 dark:text-neutral-400 font-medium mt-0.5">
-                                    <a href="https://smartcyberspace.ca/" target="_blank" rel="noopener noreferrer" class="hover:underline text-neutral-900 dark:text-white">Smart Cyberspace Inc ↗</a> • Ontario, Canada
+                                    <a href="https://smartcyberspace.ca/" target="_blank" rel="noopener noreferrer" class="hover:underline text-neutral-900 dark:text-white">Smart Cyberspace Inc ↗</a> • <span data-lang="fr">Ontario, Canada</span><span data-lang="en" class="hidden">Ontario, Canada</span>
                                 </div>
                                 <ul class="mt-2.5 space-y-1.5 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                                    <li>• Conception de modules métier et développement d'interfaces réactives.</li>
-                                    <li>• Migration de l'architecture backend vers Laravel 11 avec gain de performance et de maintenabilité.</li>
-                                    <li>• Optimisation des requêtes SQL et structuration des routes API.</li>
+                                    <li>
+                                        <span data-lang="fr">• Conception de modules métier et développement d'interfaces réactives.</span>
+                                        <span data-lang="en" class="hidden">• Designed business modules and developed responsive interfaces.</span>
+                                    </li>
+                                    <li>
+                                        <span data-lang="fr">• Migration de l'architecture backend vers Laravel 11 avec gain de performance et de maintenabilité.</span>
+                                        <span data-lang="en" class="hidden">• Migrated the backend architecture to Laravel 11, improving performance and maintainability.</span>
+                                    </li>
+                                    <li>
+                                        <span data-lang="fr">• Optimisation des requêtes SQL et structuration des routes API.</span>
+                                        <span data-lang="en" class="hidden">• Optimized SQL queries and structured API routes.</span>
+                                    </li>
                                 </ul>
                             </div>
 
@@ -614,15 +628,27 @@
                             <div class="relative">
                                 <span class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-neutral-400 dark:bg-neutral-600"></span>
                                 <div class="flex items-baseline justify-between flex-wrap gap-1">
-                                    <h4 class="font-bold text-sm text-neutral-900 dark:text-white">Stagiaire Développeur Web</h4>
-                                    <span class="text-xs font-mono text-neutral-500">Juil. 2025 – Déc. 2025</span>
+                                    <h4 class="font-bold text-sm text-neutral-900 dark:text-white">
+                                        <span data-lang="fr">Stagiaire Développeur Web</span>
+                                        <span data-lang="en" class="hidden">Web Developer Intern</span>
+                                    </h4>
+                                    <span class="text-xs font-mono text-neutral-500">
+                                        <span data-lang="fr">Juil. 2025 – Déc. 2025</span>
+                                        <span data-lang="en" class="hidden">Jul. 2025 – Dec. 2025</span>
+                                    </span>
                                 </div>
                                 <div class="text-xs text-neutral-600 dark:text-neutral-400 font-medium mt-0.5">
-                                    SMIRL Technologies • Lubumbashi, RDC
+                                    SMIRL Technologies • Lubumbashi, <span data-lang="fr">RDC</span><span data-lang="en" class="hidden">DRC</span>
                                 </div>
                                 <ul class="mt-2.5 space-y-1.5 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                                    <li>• Développement et intégration continue des fonctionnalités d'une plateforme d'orientation scolaire.</li>
-                                    <li>• Optimisation des requêtes en base de données et amélioration de l'ergonomie UX/UI.</li>
+                                    <li>
+                                        <span data-lang="fr">• Développement et intégration continue des fonctionnalités d'une plateforme d'orientation scolaire.</span>
+                                        <span data-lang="en" class="hidden">• Developed and continuously integrated features for a student guidance platform.</span>
+                                    </li>
+                                    <li>
+                                        <span data-lang="fr">• Optimisation des requêtes en base de données et amélioration de l'ergonomie UX/UI.</span>
+                                        <span data-lang="en" class="hidden">• Optimized database queries and improved the UX/UI.</span>
+                                    </li>
                                 </ul>
                             </div>
 
@@ -772,7 +798,7 @@
                         <div class="pt-2 flex flex-wrap gap-4 text-xs font-medium text-neutral-600 dark:text-neutral-400">
                             <span class="px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800">Français (Natif)</span>
                             <span class="px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800">Anglais (Avancé)</span>
-                            <span class="px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800">Permis & mobilité Île-de-France</span>
+                            <span class="px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800">Mobilité Île-de-France</span>
                         </div>
                     </div>
                 </div>

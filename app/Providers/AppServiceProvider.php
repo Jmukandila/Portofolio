@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $isLocalHost = in_array(request()->getHost(), ['localhost', '127.0.0.1', '::1', '[::1]'], true);
 
-        if (! app()->environment('local', 'testing') || ! $isLocalHost) {
+        if (! $isLocalHost) {
             URL::forceScheme('https');
         }
     }
