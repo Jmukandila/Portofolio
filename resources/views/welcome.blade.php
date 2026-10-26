@@ -34,8 +34,8 @@
             <div class="mx-auto max-w-5xl flex items-center justify-center gap-2 flex-wrap">
                 <span class="inline-flex items-center gap-1.5 font-medium">
                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                    <span data-lang="fr">À la recherche d'un <strong>stage de fin d'études de 6 mois</strong> dès <strong>Avril 2027</strong> (Île-de-France ou Télétravail)</span>
-                    <span data-lang="en" class="hidden">Actively seeking a <strong>6-month final internship</strong> starting <strong>April 2027</strong> (Paris region or Remote)</span>
+                    <span data-lang="fr">À la recherche d'un <strong>stage de fin d'études de 6 mois</strong> dès <strong>Avril 2027</strong> (Île-de-France )</span>
+                    <span data-lang="en" class="hidden">Actively seeking a <strong>6-month final internship</strong> starting <strong>April 2027</strong> (Paris region )</span>
                 </span>
                 <span class="text-neutral-300 dark:text-neutral-700 hidden sm:inline">•</span>
                 <a href="#contact" class="font-semibold text-neutral-900 dark:text-white hover:underline">
@@ -171,9 +171,9 @@
                         <!-- Pill -->
                         <div class="inline-flex items-center gap-2 rounded-full border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 px-3 py-1 text-xs text-neutral-600 dark:text-neutral-400 font-medium shadow-2xs">
                             <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                            <span>Sartrouville / Paris, France</span>
+                            <span>Paris, France</span>
                             <span class="text-neutral-300 dark:text-neutral-700">•</span>
-                            <span class="font-mono text-[11px]">ECE Paris CDA</span>
+                            <span class="font-mono text-[11px]">ECE Paris</span>
                         </div>
 
                         <!-- Main Title -->
@@ -189,10 +189,11 @@
                         <!-- Bio -->
                         <p class="mt-4 text-base sm:text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                             <span data-lang="fr">
-                                Je conçois des architectures backend fiables et des interfaces web modernes. Spécialisé dans l'écosystème <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong> et <strong>SQL</strong>, avec une expérience sur des projets réels en production au Canada, en Europe et en Afrique.
+                            <span data-lang="fr">
+                                Étudiant en dernière année de Bachelor Concepteur Développeur d'Applications, je cherche un stage de fin d'études de 5 à 6 mois. <strong>Rigoureux</strong> et <strong>autonome</strong>, je conçois des architectures backend fiables et des interfaces web modernes. Spécialisé dans l'écosystème <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, <strong>Python</strong> et <strong>SQL</strong>, je m'intéresse vivement aux enjeux de l'<strong>IA</strong> et de la <strong>Data</strong>. J'ai conçu et déployé des projets réels en production au Canada, à Londres, à Bruxelles et à Kinshasa.
                             </span>
                             <span data-lang="en" class="hidden">
-                                I engineer reliable backend architectures and polished web interfaces. Specialized in the <strong>PHP / Laravel</strong> ecosystem, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, and <strong>SQL</strong>, with hands-on production delivery experience in Canada, Europe, and Africa.
+                                Final-year student in Application Development, seeking a 5-6 month final internship. <strong>Meticulous</strong> and <strong>self-driven</strong>, I design robust backend architectures and modern web interfaces. Specialized in the <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, <strong>Python</strong>, and <strong>SQL</strong> ecosystem, I am deeply interested in <strong>AI</strong> and <strong>Data</strong>. I have designed and deployed real-world projects in production across Canada, London, Brussels, and Kinshasa.
                             </span>
                         </p>
 
@@ -206,8 +207,8 @@
                                         <span data-lang="en" class="hidden">Target: 6-month final-year internship</span>
                                     </div>
                                     <div class="text-xs text-neutral-600 dark:text-neutral-400 mt-0.5">
-                                        <span data-lang="fr">Disponible à partir d'<strong>Avril 2027</strong> • Région parisienne ou télétravail.</span>
-                                        <span data-lang="en" class="hidden">Available starting <strong>April 2027</strong> • Paris region or remote.</span>
+                                        <span data-lang="fr">Disponible à partir d'<strong>Avril 2027</strong> • Région parisienne .</span>
+                                        <span data-lang="en" class="hidden">Available starting <strong>April 2027</strong> • Paris region .</span>
                                     </div>
                                 </div>
                             </div>
@@ -329,6 +330,7 @@
                                         <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Laravel 11</span>
                                         <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Vue.js</span>
                                         <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Tailwind CSS</span>
+                                        <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Miabi</span>
                                         <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">SQL</span>
                                     </div>
                                 </div>
@@ -544,6 +546,7 @@
                                     <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">PHP</span>
                                     <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Laravel API</span>
                                     <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">MySQL</span>
+                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Posta</span>
                                     <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Tailwind</span>
                                 </div>
                             </div>
@@ -729,7 +732,7 @@
                             <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Git / GitHub</span>
                             <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">GitLab & Gitea</span>
                             <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">CI/CD Actions</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Linux / Vite</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Miabi</span>
                         </div>
                     </div>
 
@@ -810,12 +813,8 @@
                                     </button>
                                 </div>
                                 <div class="p-3 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 flex items-center justify-between">
-                                    <span class="text-neutral-600 dark:text-neutral-400">Téléphone</span>
-                                    <a href="tel:+33623197592" class="font-mono font-semibold text-neutral-900 dark:text-white hover:underline">+33 6 23 19 75 92</a>
-                                </div>
-                                <div class="p-3 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 flex items-center justify-between">
                                     <span class="text-neutral-600 dark:text-neutral-400">Localisation</span>
-                                    <span class="font-semibold text-neutral-900 dark:text-white">Sartrouville / Paris (78500)</span>
+                                    <span class="font-semibold text-neutral-900 dark:text-white">France</span>
                                 </div>
                             </div>
                         </div>
@@ -880,8 +879,8 @@
                     <span class="font-bold text-neutral-900 dark:text-white">Josh Kaninda</span>
                     <span>© {{ date('Y') }}</span>
                     <span>•</span>
-                    <span data-lang="fr">Conçu avec Laravel & Tailwind CSS</span>
-                    <span data-lang="en" class="hidden">Built with Laravel & Tailwind CSS</span>
+                    <span data-lang="fr">Tous droits réservés</span>
+                    <span data-lang="en" class="hidden">All rights reserved</span>
                 </div>
 
                 <div class="flex items-center gap-5 font-medium">
