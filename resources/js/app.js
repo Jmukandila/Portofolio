@@ -38,6 +38,14 @@
         localStorage.setItem('portfolio_lang', currentLocale);
         document.documentElement.setAttribute('lang', currentLocale);
 
+        const dismissPopupButton = document.getElementById('dismiss-internship-popup');
+        if (dismissPopupButton) {
+            dismissPopupButton.setAttribute(
+                'aria-label',
+                currentLocale === 'en' ? 'Close notification' : 'Fermer la notification'
+            );
+        }
+
         // Toggle visibility of language-specific elements
         document.querySelectorAll('[data-lang]').forEach(el => {
             const elLang = el.getAttribute('data-lang');
@@ -109,7 +117,42 @@
         });
     };
 
-    // 5. Contact Form Handler
+    // 5. Scroll-triggered internship popup
+    const setupInternshipPopup = () => {
+        const popup = document.getElementById('internship-popup');
+        const dismissButton = document.getElementById('dismiss-internship-popup');
+        const contactLink = document.getElementById('internship-popup-contact');
+
+        if (!popup || !dismissButton) {
+            return;
+        }
+
+        if (sessionStorage.getItem('internship-popup-dismissed') === 'true') {
+            return;
+        }
+
+        const showPopupAfterScroll = () => {
+            if (window.scrollY > 300) {
+                popup.classList.remove('hidden');
+                window.removeEventListener('scroll', showPopupAfterScroll);
+            }
+        };
+
+        const dismissPopup = () => {
+            popup.classList.add('hidden');
+            sessionStorage.setItem('internship-popup-dismissed', 'true');
+            window.removeEventListener('scroll', showPopupAfterScroll);
+        };
+
+        window.addEventListener('scroll', showPopupAfterScroll, { passive: true });
+        showPopupAfterScroll();
+        dismissButton.addEventListener('click', () => {
+            dismissPopup();
+        });
+        contactLink?.addEventListener('click', dismissPopup);
+    };
+
+    // 6. Contact Form Handler
     const setupContactForm = () => {
         const form = document.getElementById('contact-form');
         const statusMsg = document.getElementById('form-status');
@@ -136,6 +179,7 @@
         initTheme();
         setLanguage(currentLocale);
         setupMobileMenu();
+        setupInternshipPopup();
         setupContactForm();
 
         // Theme buttons listeners
