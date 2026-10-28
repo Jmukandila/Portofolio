@@ -5,6 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Portfolio de Josh Kaninda — Développeur Logiciel & Full-Stack (Laravel, Vue.js, PHP, Tailwind CSS, SQL). Étudiant ECE Paris. Recherche de stage de 6 mois dès Avril 2027.">
         <meta name="author" content="Josh Kaninda">
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:title" content="Josh Kaninda — Développeur Logiciel & Full-Stack">
+        <meta property="og:description" content="Portfolio de Josh Kaninda, développeur logiciel et full-stack spécialisé en Laravel, Vue.js, PHP et SQL. À la recherche d'un stage de 6 mois dès avril 2027.">
+        <meta property="og:url" content="{{ url('/') }}">
+        <meta property="og:image" content="{{ asset('images/josh-kaninda.jpg') }}">
+        <meta property="og:image:alt" content="Portrait de Josh Kaninda">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Josh Kaninda — Développeur Logiciel & Full-Stack">
+        <meta name="twitter:description" content="Portfolio de Josh Kaninda, développeur logiciel et full-stack spécialisé en Laravel, Vue.js, PHP et SQL.">
+        <meta name="twitter:image" content="{{ asset('images/josh-kaninda.jpg') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
         <title>Josh Kaninda — Développeur Logiciel & Full-Stack</title>
 
         <!-- Inline script to prevent theme flash -->
@@ -29,8 +42,8 @@
             <span>Notification</span>
         </div>
 
-        <!-- Clean Status Header Ribbon -->
-        <div class="border-b border-neutral-200/80 dark:border-neutral-800/80 bg-neutral-100/70 dark:bg-neutral-900/50 py-2 px-4 text-center text-xs text-neutral-600 dark:text-neutral-300">
+        <!-- Internship Search Notice -->
+        <div id="internship-notice" role="region" aria-label="Recherche de stage" class="border-b border-neutral-200/80 dark:border-neutral-800/80 bg-neutral-100/70 dark:bg-neutral-900/50 py-2 px-4 text-center text-xs text-neutral-600 dark:text-neutral-300">
             <div class="mx-auto max-w-5xl flex items-center justify-center gap-2 flex-wrap">
                 <span class="inline-flex items-center gap-1.5 font-medium">
                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
@@ -44,6 +57,26 @@
                 </a>
             </div>
         </div>
+
+        <aside id="internship-popup" role="region" aria-label="Proposition de stage" aria-live="polite" class="fixed bottom-20 right-6 z-40 hidden w-[calc(100%-3rem)] max-w-sm rounded-2xl border border-neutral-200 bg-white p-5 text-neutral-900 shadow-2xl dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-100">
+            <button id="dismiss-internship-popup" type="button" class="absolute right-3 top-3 rounded p-1 text-neutral-500 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-white transition-colors" aria-label="Fermer la notification">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <p class="pr-6 text-sm font-bold">
+                <span data-lang="fr">Un stage à me proposer ?</span>
+                <span data-lang="en" class="hidden">Have an internship opportunity?</span>
+            </p>
+            <p class="mt-1 text-xs leading-relaxed text-neutral-600 dark:text-neutral-400">
+                <span data-lang="fr">Je recherche un stage de fin d'études de 6 mois dès avril 2027.</span>
+                <span data-lang="en" class="hidden">I'm looking for a 6-month final internship starting April 2027.</span>
+            </p>
+            <a id="internship-popup-contact" href="#contact" class="mt-4 inline-flex items-center rounded-lg bg-neutral-900 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-neutral-700 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200">
+                <span data-lang="fr">Me contacter →</span>
+                <span data-lang="en" class="hidden">Get in touch →</span>
+            </a>
+        </aside>
 
         <!-- Navigation Bar -->
         <header class="sticky top-0 z-40 border-b border-neutral-200/80 dark:border-neutral-800/80 bg-[#fafafa]/90 dark:bg-[#09090b]/90 backdrop-blur-md transition-colors">
@@ -912,8 +945,12 @@
                 <div class="flex items-center gap-5 font-medium">
                     <a href="https://github.com/Jmukandila" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-white transition-colors">GitHub</a>
                     <a href="https://www.linkedin.com/in/josh-kaninda/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-white transition-colors">LinkedIn</a>
-                    <a href="{{ asset('cv/CV_Josh_Kaninda.pdf') }}" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-white transition-colors">CV (PDF)</a>
-                    <a href="#accueil" class="hover:text-neutral-900 dark:hover:text-white transition-colors">↑ Haut</a>
+                    <a href="{{ asset('cv/CV_Josh_Kaninda.pdf') }}" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-white transition-colors">CV</a>
+                    {{-- <a href="#accueil" class="hover:text-neutral-900 dark:hover:text-white transition-colors">↑ Haut</a> --}}
+                    <a href="https://miabi.io?ref=badge" target="_blank" rel="noopener">
+                        <img class="dark:hidden" src="https://miabi.io/badges/running-on-miabi-light.svg" alt="Running on Miabi" height="32">
+                        <img class="hidden dark:block" src="https://miabi.io/badges/running-on-miabi-dark.svg" alt="Running on Miabi" height="32">
+                    </a>
                 </div>
             </div>
         </footer>
