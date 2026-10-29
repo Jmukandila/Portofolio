@@ -16,6 +16,10 @@ class ExampleTest extends TestCase
 
         $response->assertOk()
             ->assertSee('<meta name="robots" content="index, follow">', false)
+            ->assertSee('<link rel="canonical" href="', false)
+            ->assertSee('"@context": "https://schema.org"', false)
+            ->assertSee('"@type": "Person"', false)
+            ->assertSee('"alternateName": "Kaninda"', false)
             ->assertSee('<meta property="og:image"', false)
             ->assertSee('<link rel="icon" type="image/x-icon"', false)
             ->assertSee('id="internship-notice"', false)
