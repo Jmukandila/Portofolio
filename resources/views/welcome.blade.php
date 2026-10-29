@@ -6,8 +6,10 @@
         <meta name="description" content="Portfolio de Josh Kaninda — Développeur Logiciel & Full-Stack (Laravel, Vue.js, PHP, Tailwind CSS, SQL). Étudiant ECE Paris. Recherche de stage de 6 mois dès Avril 2027.">
         <meta name="author" content="Josh Kaninda">
         <meta name="robots" content="index, follow">
+        <link rel="canonical" href="{{ url('/') }}">
         <meta property="og:type" content="website">
         <meta property="og:locale" content="fr_FR">
+        <meta property="og:site_name" content="Portfolio de Josh Kaninda">
         <meta property="og:title" content="Josh Kaninda — Développeur Logiciel & Full-Stack">
         <meta property="og:description" content="Portfolio de Josh Kaninda, développeur logiciel et full-stack spécialisé en Laravel, Vue.js, PHP et SQL. À la recherche d'un stage de 6 mois dès avril 2027.">
         <meta property="og:url" content="{{ url('/') }}">
@@ -19,6 +21,22 @@
         <meta name="twitter:image" content="{{ asset('images/josh-kaninda.jpg') }}">
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
         <title>Josh Kaninda — Développeur Logiciel & Full-Stack</title>
+        <script type="application/ld+json">
+            {
+                "@@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Josh Kaninda",
+                "alternateName": "Kaninda",
+                "url": @json(url('/')),
+                "image": @json(asset('images/josh-kaninda.jpg')),
+                "jobTitle": "Développeur logiciel et full-stack",
+                "description": "Portfolio de Josh Kaninda, développeur logiciel et full-stack spécialisé en Laravel, Vue.js, PHP et SQL.",
+                "sameAs": [
+                    "https://github.com/Jmukandila",
+                    "https://www.linkedin.com/in/josh-kaninda/"
+                ]
+            }
+        </script>
 
         <!-- Inline script to prevent theme flash -->
         <script>
