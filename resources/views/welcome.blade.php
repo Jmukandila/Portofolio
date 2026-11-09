@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Portfolio de Josh Kaninda — Développeur Logiciel & Full-Stack (Laravel, Vue.js, PHP, Tailwind CSS, SQL). Étudiant ECE Paris. Recherche de stage de 6 mois dès Avril 2027.">
+        <meta name="description" content="Portfolio de Josh Kaninda, développeur web full-stack : PHP, Laravel 11, React, Python et SQL. Étudiant à l'ECE Paris, disponible pour un stage de 6 mois dès avril 2027.">
         <meta name="author" content="Josh Kaninda">
         <meta name="robots" content="index, follow">
         <link rel="canonical" href="{{ url('/') }}">
@@ -11,13 +11,13 @@
         <meta property="og:locale" content="fr_FR">
         <meta property="og:site_name" content="Portfolio de Josh Kaninda">
         <meta property="og:title" content="Josh Kaninda — Développeur Logiciel & Full-Stack">
-        <meta property="og:description" content="Portfolio de Josh Kaninda, développeur logiciel et full-stack spécialisé en Laravel, Vue.js, PHP et SQL. À la recherche d'un stage de 6 mois dès avril 2027.">
+        <meta property="og:description" content="Portfolio de Josh Kaninda, développeur web full-stack : PHP, Laravel 11, React, Python et SQL. Étudiant à l'ECE Paris, disponible pour un stage de 6 mois dès avril 2027.">
         <meta property="og:url" content="{{ url('/') }}">
         <meta property="og:image" content="{{ asset('images/josh-kaninda.jpg') }}">
         <meta property="og:image:alt" content="Portrait de Josh Kaninda">
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="Josh Kaninda — Développeur Logiciel & Full-Stack">
-        <meta name="twitter:description" content="Portfolio de Josh Kaninda, développeur logiciel et full-stack spécialisé en Laravel, Vue.js, PHP et SQL.">
+        <meta name="twitter:description" content="Portfolio de Josh Kaninda, développeur web full-stack : PHP, Laravel 11, React, Python et SQL.">
         <meta name="twitter:image" content="{{ asset('images/josh-kaninda.jpg') }}">
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
         <title>Josh Kaninda — Développeur Logiciel & Full-Stack</title>
@@ -30,7 +30,7 @@
                 "url": @json(url('/')),
                 "image": @json(asset('images/josh-kaninda.jpg')),
                 "jobTitle": "Développeur logiciel et full-stack",
-                "description": "Portfolio de Josh Kaninda, développeur logiciel et full-stack spécialisé en Laravel, Vue.js, PHP et SQL.",
+                "description": "Portfolio de Josh Kaninda, développeur web full-stack spécialisé en PHP, Laravel 11, React, Python et SQL.",
                 "sameAs": [
                     "https://github.com/Jmukandila",
                     "https://www.linkedin.com/in/josh-kaninda/"
@@ -65,8 +65,8 @@
             <div class="mx-auto max-w-5xl flex items-center justify-center gap-2 flex-wrap">
                 <span class="inline-flex items-center gap-1.5 font-medium">
                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                    <span data-lang="fr">À la recherche d'un <strong>stage de fin d'études de 6 mois</strong> dès <strong>Avril 2027</strong> (Île-de-France )</span>
-                    <span data-lang="en" class="hidden">Actively seeking a <strong>6-month final internship</strong> starting <strong>April 2027</strong> (Paris region )</span>
+                    <span data-lang="fr">À la recherche d'un <strong>stage de fin d'études de 6 mois</strong> dès <strong>avril 2027</strong> (Île-de-France)</span>
+                    <span data-lang="en" class="hidden">Actively seeking a <strong>6-month final internship</strong> starting <strong>April 2027</strong> (Paris region)</span>
                 </span>
                 <span class="text-neutral-300 dark:text-neutral-700 hidden sm:inline">•</span>
                 <a href="#contact" class="font-semibold text-neutral-900 dark:text-white hover:underline">
@@ -240,10 +240,10 @@
                         <!-- Bio -->
                         <p class="mt-4 text-base sm:text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                             <span data-lang="fr">
-                                Étudiant en dernière année de Bachelor Concepteur Développeur d'Applications, je cherche un stage de fin d'études de 6 mois. <strong>Rigoureux</strong> et <strong>autonome</strong>, je conçois des architectures backend fiables et des interfaces web modernes. Spécialisé dans l'écosystème <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, <strong>Python</strong> et <strong>SQL</strong>, je m'intéresse vivement aux enjeux de l'<strong>IA</strong> et de la <strong>Data</strong>. J'ai conçu et déployé des projets réels en production au Canada, à Londres, à Bruxelles et à Kinshasa.
+                                En fin de Bachelor Concepteur Développeur d'Applications à l'ECE Paris, je recherche un stage de 6 mois dès avril 2027. J'ai plus d'un an d'expérience en développement web, notamment sur la migration d'un backend vers <strong>Laravel 11</strong> et le développement avec <strong>PHP</strong>, <strong>React</strong> et <strong>Python</strong>. Je travaille également avec <strong>TypeScript</strong>, <strong>React Native</strong> et <strong>SQL</strong>.
                             </span>
                             <span data-lang="en" class="hidden">
-                                Final-year student in Application Development, seeking a 6-month final internship. <strong>Meticulous</strong> and <strong>self-driven</strong>, I design robust backend architectures and modern web interfaces. Specialized in the <strong>PHP / Laravel</strong>, <strong>Vue.js</strong>, <strong>Tailwind CSS</strong>, <strong>Python</strong>, and <strong>SQL</strong> ecosystem, I am deeply interested in <strong>AI</strong> and <strong>Data</strong>. I have designed and deployed real-world projects in production across Canada, London, Brussels, and Kinshasa.
+                                Final-year Application Development student at ECE Paris, seeking a 6-month internship starting in April 2027. I have over a year of web development experience, including migrating a backend to <strong>Laravel 11</strong> and building features with <strong>PHP</strong>, <strong>React</strong>, and <strong>Python</strong>. I also work with <strong>TypeScript</strong>, <strong>React Native</strong>, and <strong>SQL</strong>.
                             </span>
                         </p>
 
@@ -370,18 +370,17 @@
                                     </h3>
                                     <p class="mt-2.5 text-xs sm:text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed">
                                         <span data-lang="fr">
-                                            Entreprise canadienne spécialisée en ingénierie logicielle, cybersécurité et solutions IA. Réalisation de modules métier, migration d'architecture backend vers Laravel 11 pour de meilleures performances et optimisation des requêtes SQL.
+                                            Expérience en télétravail depuis la France avec cette entreprise basée en Ontario : migration de l'architecture backend vers Laravel 11, développement de modules métier avec Laravel et React, et modélisation de données MySQL.
                                         </span>
                                         <span data-lang="en" class="hidden">
-                                            Canadian enterprise providing software engineering, cybersecurity and AI solutions. Developed core modules, executed backend migration to Laravel 11 to optimize latency, and refined SQL database structures.
+                                            Remote experience from France with this Ontario-based company: migrated the backend architecture to Laravel 11, developed business modules with Laravel and React, and designed MySQL data models.
                                         </span>
                                     </p>
                                     <div class="mt-4 flex flex-wrap gap-1.5 font-mono text-[11px]">
                                         <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Laravel 11</span>
-                                        <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Vue.js</span>
-                                        <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Tailwind CSS</span>
-                                        <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Miabi</span>
-                                        <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">SQL</span>
+                                        <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">React</span>
+                                        <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">MySQL</span>
+                                        <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">API REST</span>
                                     </div>
                                 </div>
 
@@ -574,36 +573,36 @@
                             </div>
                         </article>
 
-                        <!-- Project 5: To-Do Fac -->
+                        <!-- Project 5: TrailMap -->
                         <article class="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-6 flex flex-col justify-between shadow-xs hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
                             <div>
                                 <div class="flex items-center justify-between text-xs font-mono text-neutral-500">
-                                    <span>Outil Collaboratif</span>
-                                    <span>Open Source</span>
+                                    <span data-lang="fr">Application mobile</span>
+                                    <span data-lang="en" class="hidden">Mobile application</span>
+                                    <span>2026</span>
                                 </div>
                                 <h3 class="mt-2 text-lg font-bold text-neutral-900 dark:text-white">
-                                    To-Do Fac
+                                    TrailMap
                                 </h3>
                                 <p class="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed">
                                     <span data-lang="fr">
-                                        Application collaborative pour étudiants facilitant la coordination des devoirs de groupe, la répartition des rôles et le respect des échéances avec tableaux Kanban.
+                                        Application mobile de cartographie et de suivi d'itinéraires, développée avec React Native, Expo Router et TypeScript.
                                     </span>
                                     <span data-lang="en" class="hidden">
-                                        Collaborative platform built for students to coordinate group assignments, assign tasks, and track milestones with Kanban boards.
+                                        A mobile mapping and route-tracking application built with React Native, Expo Router, and TypeScript.
                                     </span>
                                 </p>
                                 <div class="mt-4 flex flex-wrap gap-1.5 font-mono text-[11px]">
-                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">PHP</span>
-                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Laravel API</span>
-                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">MySQL</span>
-                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Posta</span>
-                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Tailwind</span>
+                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">React Native</span>
+                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Expo SDK 58</span>
+                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Expo Router</span>
+                                    <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">TypeScript</span>
                                 </div>
                             </div>
 
                             <div class="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800">
                                 <a 
-                                    href="https://github.com/Jmukandila/todo_fac" 
+                                    href="https://github.com/Jmukandila/trailmap"
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     class="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-900 dark:text-white hover:underline"
@@ -657,20 +656,20 @@
                                     </span>
                                 </div>
                                 <div class="text-xs text-neutral-600 dark:text-neutral-400 font-medium mt-0.5">
-                                    <a href="https://smartcyberspace.ca/" target="_blank" rel="noopener noreferrer" class="hover:underline text-neutral-900 dark:text-white">Smart Cyberspace Inc ↗</a> • <span data-lang="fr">Ontario, Canada</span><span data-lang="en" class="hidden">Ontario, Canada</span>
+                                    <a href="https://smartcyberspace.ca/" target="_blank" rel="noopener noreferrer" class="hover:underline text-neutral-900 dark:text-white">Smart Cyberspace Inc ↗</a> • <span data-lang="fr">Ontario, Canada (télétravail)</span><span data-lang="en" class="hidden">Ontario, Canada (remote)</span>
                                 </div>
                                 <ul class="mt-2.5 space-y-1.5 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
                                     <li>
-                                        <span data-lang="fr">• Conception de modules métier et développement d'interfaces réactives.</span>
-                                        <span data-lang="en" class="hidden">• Designed business modules and developed responsive interfaces.</span>
+                                        <span data-lang="fr">• Développement de modules métier avec Laravel et d'interfaces avec React.</span>
+                                        <span data-lang="en" class="hidden">• Developed business modules with Laravel and interfaces with React.</span>
                                     </li>
                                     <li>
-                                        <span data-lang="fr">• Migration de l'architecture backend vers Laravel 11 avec gain de performance et de maintenabilité.</span>
-                                        <span data-lang="en" class="hidden">• Migrated the backend architecture to Laravel 11, improving performance and maintainability.</span>
+                                        <span data-lang="fr">• Migration de l'architecture backend vers Laravel 11.</span>
+                                        <span data-lang="en" class="hidden">• Migrated the backend architecture to Laravel 11.</span>
                                     </li>
                                     <li>
-                                        <span data-lang="fr">• Optimisation des requêtes SQL et structuration des routes API.</span>
-                                        <span data-lang="en" class="hidden">• Optimized SQL queries and structured API routes.</span>
+                                        <span data-lang="fr">• Modélisation du schéma relationnel MySQL et optimisation de requêtes complexes.</span>
+                                        <span data-lang="en" class="hidden">• Designed the MySQL relational schema and optimized complex queries.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -772,8 +771,8 @@
                         <div class="mt-4 flex flex-wrap gap-1.5 font-mono text-[11px]">
                             <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">PHP 8.x</span>
                             <span class="px-2 py-0.5 rounded bg-neutral-900 text-white dark:bg-white dark:text-neutral-950 font-bold">Laravel</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Node.js</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Python</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Laravel 11</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Python · FastAPI · Flask</span>
                         </div>
                     </div>
 
@@ -782,10 +781,10 @@
                         <div class="font-bold text-sm text-neutral-900 dark:text-white">Interface & UI</div>
                         <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Design moderne & réactif</p>
                         <div class="mt-4 flex flex-wrap gap-1.5 font-mono text-[11px]">
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Vue.js</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Nuxt.js</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-900 text-white dark:bg-white dark:text-neutral-950 font-bold">Tailwind CSS</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Blade</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">JavaScript</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">TypeScript</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-900 text-white dark:bg-white dark:text-neutral-950 font-bold">React</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">React Native</span>
                         </div>
                     </div>
 
@@ -796,8 +795,7 @@
                         <div class="mt-4 flex flex-wrap gap-1.5 font-mono text-[11px]">
                             <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">MySQL</span>
                             <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">SQLite</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">PostgreSQL</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Merise / SQL</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">SQLAlchemy</span>
                         </div>
                     </div>
 
@@ -807,9 +805,9 @@
                         <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Automatisation et livraison</p>
                         <div class="mt-4 flex flex-wrap gap-1.5 font-mono text-[11px]">
                             <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Git / GitHub</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">GitLab & Gitea</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">CI/CD Actions</span>
-                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Miabi</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Docker</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Linux (Ubuntu)</span>
+                            <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">API REST · Miabi PaaS</span>
                         </div>
                     </div>
 
@@ -844,6 +842,14 @@
                             </span>
                             <span data-lang="en" class="hidden">
                                 My experience within the <strong>Smart Cyberspace Inc</strong> team (Canada) and on institutional projects trained me to collaborate effectively in distributed settings and deliver on schedule.
+                            </span>
+                        </p>
+                        <p>
+                            <span data-lang="fr">
+                                Je m'intéresse particulièrement à la <strong>Data et à l'intelligence artificielle</strong> et souhaite poursuivre mes études par un Master dans ce domaine. Je continue d'apprendre et de m'améliorer chaque jour, et je suis à la recherche d'un <strong>stage de 6 mois dès avril 2027</strong>.
+                            </span>
+                            <span data-lang="en" class="hidden">
+                                I am particularly interested in <strong>Data and Artificial Intelligence</strong> and plan to pursue a Master's degree in this field. I keep learning and improving every day, and I am currently looking for a <strong>6-month internship starting in April 2027</strong>.
                             </span>
                         </p>
                         <div class="pt-2 flex flex-wrap gap-4 text-xs font-medium text-neutral-600 dark:text-neutral-400">
