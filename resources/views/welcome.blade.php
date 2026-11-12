@@ -65,8 +65,8 @@
             <div class="mx-auto max-w-5xl flex items-center justify-center gap-2 flex-wrap">
                 <span class="inline-flex items-center gap-1.5 font-medium">
                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                    <span data-lang="fr">À la recherche d'un <strong>stage de fin d'études de 6 mois</strong> dès <strong>avril 2027</strong> (Île-de-France)</span>
-                    <span data-lang="en" class="hidden">Actively seeking a <strong>6-month final internship</strong> starting <strong>April 2027</strong> (Paris region)</span>
+                    <span data-lang="fr">À la recherche d'un <strong>stage de fin d'études de 6 mois</strong> dès <strong>avril 2027</strong> (Île-de-France | Mobilité Nationale)</span>
+                    <span data-lang="en" class="hidden">Actively seeking a <strong>6-month final internship</strong> starting <strong>April 2027</strong> (Paris region | National Mobility)</span>
                 </span>
                 <span class="text-neutral-300 dark:text-neutral-700 hidden sm:inline">•</span>
                 <a href="#contact" class="font-semibold text-neutral-900 dark:text-white hover:underline">
@@ -87,8 +87,8 @@
                 <span data-lang="en" class="hidden">Have an internship opportunity?</span>
             </p>
             <p class="mt-1 text-xs leading-relaxed text-neutral-600 dark:text-neutral-400">
-                <span data-lang="fr">Je recherche un stage de fin d'études de 6 mois dès avril 2027.</span>
-                <span data-lang="en" class="hidden">I'm looking for a 6-month final internship starting April 2027.</span>
+                <span data-lang="fr">Je recherche un stage de fin d'études de 6 mois dès avril 2027 (Île-de-France | Mobilité Nationale).</span>
+                <span data-lang="en" class="hidden">I'm looking for a 6-month final internship starting April 2027 (Paris region | National Mobility).</span>
             </p>
             <a id="internship-popup-contact" href="#contact" class="mt-4 inline-flex items-center rounded-lg bg-neutral-900 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-neutral-700 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200">
                 <span data-lang="fr">Me contacter →</span>
@@ -718,7 +718,7 @@
                             <div class="relative">
                                 <span class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-neutral-900 dark:bg-white"></span>
                                 <div class="flex items-baseline justify-between flex-wrap gap-1">
-                                    <h4 class="font-bold text-sm text-neutral-900 dark:text-white">Bachelor Concepteur Développeur d'Applications (CDA)</h4>
+                                    <h4 class="font-bold text-sm text-neutral-900 dark:text-white">Bachelor Concepteur Développeur d'Applications (BAC+3)</h4>
                                     <span class="text-xs font-mono text-neutral-500">2026 – 2027</span>
                                 </div>
                                 <div class="text-xs text-neutral-600 dark:text-neutral-400 font-medium mt-0.5">
