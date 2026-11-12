@@ -253,8 +253,8 @@
                                 <span class="text-lg">🎯</span>
                                 <div>
                                     <div class="font-semibold text-neutral-900 dark:text-white">
-                                        <span data-lang="fr">Objectif : Stage de fin d'études de 6 mois</span>
-                                        <span data-lang="en">Target: 6-month final-year internship</span>
+                                        <span data-lang="fr">Objectif : Stage de  6 mois</span>
+                                        <span data-lang="en">Target: 6-month internship</span>
                                     </div>
                                     <div class="text-xs text-neutral-600 dark:text-neutral-400 mt-0.5">
                                         <span data-lang="fr">Disponible à partir d'<strong>Avril 2027</strong> • Région parisienne | Mobilité Nationale.</span>
