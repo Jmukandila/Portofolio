@@ -65,8 +65,8 @@
             <div class="mx-auto max-w-5xl flex items-center justify-center gap-2 flex-wrap">
                 <span class="inline-flex items-center gap-1.5 font-medium">
                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                    <span data-lang="fr">À la recherche d'un <strong>stage de 6 mois</strong> dès <strong>avril 2027</strong> (Île-de-France | Mobilité Nationale)</span>
-                    <span data-lang="en" class="hidden">Actively seeking a <strong>6-month internship</strong> starting <strong>April 2027</strong> (Paris region | National Mobility)</span>
+                    <span data-lang="fr">À la recherche d'un <strong>stage de 4 à 6 mois</strong> dès <strong>avril 2027</strong> (Île-de-France | Mobilité Nationale)</span>
+                    <span data-lang="en" class="hidden">Actively seeking a <strong>4 to 6-month internship</strong> starting <strong>April 2027</strong> (Paris region | National Mobility)</span>
                 </span>
                 <span class="text-neutral-300 dark:text-neutral-700 hidden sm:inline">•</span>
                 <a href="#contact" class="font-semibold text-neutral-900 dark:text-white hover:underline">
@@ -87,8 +87,8 @@
                 <span data-lang="en" class="hidden">Have an internship opportunity?</span>
             </p>
             <p class="mt-1 text-xs leading-relaxed text-neutral-600 dark:text-neutral-400">
-                <span data-lang="fr">Je recherche un stage de 6 mois dès avril 2027 (Île-de-France | Mobilité Nationale).</span>
-                <span data-lang="en" class="hidden">I'm looking for a 6-month internship starting April 2027 (Paris region | National Mobility).</span>
+                <span data-lang="fr">Je recherche un stage de 4 à 6 mois dès avril 2027 (Île-de-France | Mobilité Nationale).</span>
+                <span data-lang="en" class="hidden">I'm looking for a 4 to 6-month internship starting April 2027 (Paris region | National Mobility).</span>
             </p>
             <a id="internship-popup-contact" href="#contact" class="mt-4 inline-flex items-center rounded-lg bg-neutral-900 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-neutral-700 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200">
                 <span data-lang="fr">Me contacter →</span>
@@ -253,8 +253,8 @@
                                 <span class="text-lg">🎯</span>
                                 <div>
                                     <div class="font-semibold text-neutral-900 dark:text-white">
-                                        <span data-lang="fr">Objectif : Stage de  6 mois</span>
-                                        <span data-lang="en">Target: 6-month internship</span>
+                                        <span data-lang="fr">Objectif : Stage de  4 à 6 mois</span>
+                                        <span data-lang="en">Target: 4 to 6-month internship</span>
                                     </div>
                                     <div class="text-xs text-neutral-600 dark:text-neutral-400 mt-0.5">
                                         <span data-lang="fr">Disponible à partir d'<strong>Avril 2027</strong> • Région parisienne | Mobilité Nationale.</span>
@@ -846,10 +846,10 @@
                         </p>
                         <p>
                             <span data-lang="fr">
-                                Je m'intéresse particulièrement à la <strong>Data et à l'intelligence artificielle</strong> et souhaite poursuivre mes études par un Master dans ce domaine. Je continue d'apprendre et de m'améliorer chaque jour, et je suis à la recherche d'un <strong>stage de 6 mois dès avril 2027</strong>.
+                                Je m'intéresse particulièrement à la <strong>Data et à l'intelligence artificielle</strong> et souhaite poursuivre mes études par un Master dans ce domaine. Je continue d'apprendre et de m'améliorer chaque jour, et je suis à la recherche d'un <strong>stage de 4 à 6 mois dès avril 2027</strong>.
                             </span>
                             <span data-lang="en" class="hidden">
-                                I am particularly interested in <strong>Data and Artificial Intelligence</strong> and plan to pursue a Master's degree in this field. I keep learning and improving every day, and I am currently looking for a <strong>6-month internship starting in April 2027</strong>.
+                                I am particularly interested in <strong>Data and Artificial Intelligence</strong> and plan to pursue a Master's degree in this field. I keep learning and improving every day, and I am currently looking for a <strong>4 to 6-month internship starting in April 2027</strong>.
                             </span>
                         </p>
                         <div class="pt-2 flex flex-wrap gap-4 text-xs font-medium text-neutral-600 dark:text-neutral-400">
@@ -876,10 +876,10 @@
                             </h2>
                             <p class="mt-3 text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed">
                                 <span data-lang="fr">
-                                    Je suis à votre disposition pour échanger au sujet d'un stage de fin d'études de 6 mois dès Avril 2027 ou d'un projet technique.
+                                    Je suis à votre disposition pour échanger au sujet d'un stage de fin d'études de 4 à 6 mois dès Avril 2027 ou d'un projet technique.
                                 </span>
                                 <span data-lang="en" class="hidden">
-                                    Feel free to reach out to discuss a 6-month final internship starting April 2027 or an engineering collaboration.
+                                    Feel free to reach out to discuss a 4 to 6-month final internship starting April 2027 or an engineering collaboration.
                                 </span>
                             </p>
 
