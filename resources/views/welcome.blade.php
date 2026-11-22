@@ -62,11 +62,11 @@
 
         <!-- Internship Search Notice -->
         <div id="internship-notice" role="region" aria-label="Recherche de stage" class="border-b border-neutral-200/80 dark:border-neutral-800/80 bg-neutral-100/70 dark:bg-neutral-900/50 py-2 px-4 text-center text-xs text-neutral-600 dark:text-neutral-300">
-            <div class="mx-auto max-w-5xl flex items-center justify-center gap-2 flex-wrap">
+            <div class="mx-auto max-w-6xl flex items-center justify-center gap-2 flex-wrap">
                 <span class="inline-flex items-center gap-1.5 font-medium">
                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                    <span data-lang="fr">À la recherche d'un <strong>stage de 4 à 6 mois</strong> dès <strong>avril 2027</strong> (Île-de-France | Mobilité Nationale)</span>
-                    <span data-lang="en" class="hidden">Actively seeking a <strong>4 to 6-month internship</strong> starting <strong>April 2027</strong> (Paris region | National Mobility)</span>
+                    <span data-lang="fr">À la recherche d'un <strong>stage de 6 mois</strong> dès <strong>avril 2027</strong> (Île-de-France | Mobilité Nationale)</span>
+                    <span data-lang="en" class="hidden">Actively seeking a <strong>6-month internship</strong> starting <strong>April 2027</strong> (Paris region | National Mobility)</span>
                 </span>
                 <span class="text-neutral-300 dark:text-neutral-700 hidden sm:inline">•</span>
                 <a href="#contact" class="font-semibold text-neutral-900 dark:text-white hover:underline">
@@ -87,8 +87,8 @@
                 <span data-lang="en" class="hidden">Have an internship opportunity?</span>
             </p>
             <p class="mt-1 text-xs leading-relaxed text-neutral-600 dark:text-neutral-400">
-                <span data-lang="fr">Je recherche un stage de 4 à 6 mois dès avril 2027 (Île-de-France | Mobilité Nationale).</span>
-                <span data-lang="en" class="hidden">I'm looking for a 4 to 6-month internship starting April 2027 (Paris region | National Mobility).</span>
+                <span data-lang="fr">Je recherche un stage de 6 mois dès avril 2027 (Île-de-France | Mobilité Nationale).</span>
+                <span data-lang="en" class="hidden">I'm looking for a 6-month internship starting April 2027 (Paris region | National Mobility).</span>
             </p>
             <a id="internship-popup-contact" href="#contact" class="mt-4 inline-flex items-center rounded-lg bg-neutral-900 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-neutral-700 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200">
                 <span data-lang="fr">Me contacter →</span>
@@ -98,7 +98,7 @@
 
         <!-- Navigation Bar -->
         <header class="sticky top-0 z-40 border-b border-neutral-200/80 dark:border-neutral-800/80 bg-[#fafafa]/90 dark:bg-[#09090b]/90 backdrop-blur-md transition-colors">
-            <nav class="mx-auto flex max-w-5xl items-center justify-between px-5 py-4 sm:px-6">
+            <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-6">
                 <!-- Brand / Signature -->
                 <a href="#accueil" class="flex items-center gap-2.5 group">
                     <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 dark:bg-white text-white dark:text-neutral-950 font-bold text-xs tracking-tight">
@@ -212,10 +212,10 @@
             </div>
         </header>
 
-        <main class="mx-auto max-w-5xl px-5 sm:px-6">
+        <main class="mx-auto max-w-6xl px-5 sm:px-6">
             
             <!-- Hero Section: Clean, authentic human presentation -->
-            <section id="accueil" class="pt-14 pb-16 sm:pt-20 sm:pb-20 border-b border-neutral-200/80 dark:border-neutral-800/80">
+            <section id="accueil" class="hero-section pt-14 pb-16 sm:pt-20 sm:pb-20 border-b border-neutral-200/80 dark:border-neutral-800/80">
                 <div class="grid items-center gap-10 md:grid-cols-[1.25fr_0.75fr]">
                     
                     <div>
@@ -228,7 +228,7 @@
                         </div>
 
                         <!-- Main Title -->
-                        <h1 class="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-neutral-900 dark:text-white leading-[1.18]">
+                        <h1 class="mt-5 max-w-3xl text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-neutral-900 dark:text-white leading-[1.08]">
                             <span data-lang="fr">
                                 Josh Kaninda, développeur logiciel & full-stack.
                             </span>
@@ -238,7 +238,7 @@
                         </h1>
 
                         <!-- Bio -->
-                        <p class="mt-4 text-base sm:text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                        <p class="mt-5 max-w-2xl text-base sm:text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                             <span data-lang="fr">
                                 En fin de Bachelor Concepteur Développeur d'Applications à l'ECE Paris, je recherche un stage de 6 mois dès avril 2027. J'ai plus d'un an d'expérience en développement web, notamment sur la migration d'un backend vers <strong>Laravel 11</strong> et le développement avec <strong>PHP</strong>, <strong>React</strong> et <strong>Python</strong>. Je travaille également avec <strong>TypeScript</strong>, <strong>React Native</strong> et <strong>SQL</strong>.
                             </span>
@@ -248,13 +248,13 @@
                         </p>
 
                         <!-- Internship highlight callout -->
-                        <div class="mt-6 p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900/80 text-sm">
+                        <div class="mt-6 max-w-xl p-4 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-sm shadow-sm">
                             <div class="flex items-start gap-3">
                                 <span class="text-lg">🎯</span>
                                 <div>
                                     <div class="font-semibold text-neutral-900 dark:text-white">
-                                        <span data-lang="fr">Objectif : Stage de  4 à 6 mois</span>
-                                        <span data-lang="en">Target: 4 to 6-month internship</span>
+                                        <span data-lang="fr">Objectif : Stage de 6 mois</span>
+                                        <span data-lang="en" class="hidden">Target: 6-month internship</span>
                                     </div>
                                     <div class="text-xs text-neutral-600 dark:text-neutral-400 mt-0.5">
                                         <span data-lang="fr">Disponible à partir d'<strong>Avril 2027</strong> • Région parisienne | Mobilité Nationale.</span>
@@ -291,7 +291,7 @@
 
                     <!-- Right Column: Clean, tasteful photo card -->
                     <div class="flex justify-center md:justify-end">
-                        <div class="w-full max-w-[280px] sm:max-w-[320px] rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-2.5 shadow-sm">
+                        <div class="profile-card w-full max-w-[300px] sm:max-w-[350px] rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-3">
                             <div class="overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-800 aspect-[4/5] relative">
                                 <img 
                                     src="{{ asset('images/josh-kaninda.jpg') }}" 
@@ -316,7 +316,7 @@
 
             <!-- Projects Section: Real-world engineering showcase -->
             <section id="projets" class="py-16 sm:py-20 border-b border-neutral-200/80 dark:border-neutral-800/80">
-                <div class="mb-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+                <div class="section-heading mb-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
                     <div>
                         <div class="text-xs font-mono uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
                             01 / <span data-lang="fr">Réalisations</span><span data-lang="en" class="hidden">Projects</span>
@@ -335,7 +335,7 @@
                 <div class="space-y-8">
                     
                     <!-- Project 1: Smart Cyberspace Inc -->
-                    <article class="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden shadow-xs hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
+                    <article class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden shadow-xs">
                         <div class="grid md:grid-cols-12 gap-0">
                             <!-- Left: Screenshot in minimal browser shell -->
                             <div class="md:col-span-7 bg-neutral-100 dark:bg-neutral-950 border-b md:border-b-0 md:border-r border-neutral-200 dark:border-neutral-800 p-4 sm:p-5 flex flex-col justify-center">
@@ -401,7 +401,7 @@
                     </article>
 
                     <!-- Project 2: ANMI Consulting -->
-                    <article class="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden shadow-xs hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
+                    <article class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden shadow-xs">
                         <div class="grid md:grid-cols-12 gap-0">
                             <!-- Left: Screenshot -->
                             <div class="md:col-span-7 bg-neutral-100 dark:bg-neutral-950 border-b md:border-b-0 md:border-r border-neutral-200 dark:border-neutral-800 p-4 sm:p-5 flex flex-col justify-center">
@@ -466,7 +466,7 @@
                     </article>
 
                     <!-- Project 3: Dialogue & Éducation en Afrique -->
-                    <article class="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden shadow-xs hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
+                    <article class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden shadow-xs">
                         <div class="grid md:grid-cols-12 gap-0">
                             <!-- Left: Screenshot -->
                             <div class="md:col-span-7 bg-neutral-100 dark:bg-neutral-950 border-b md:border-b-0 md:border-r border-neutral-200 dark:border-neutral-800 p-4 sm:p-5 flex flex-col justify-center">
@@ -534,7 +534,7 @@
                     <div class="grid sm:grid-cols-2 gap-8">
                         
                         <!-- Project 4: Syndic Connect -->
-                        <article class="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-6 flex flex-col justify-between shadow-xs hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
+                        <article class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-6 flex flex-col justify-between shadow-xs">
                             <div>
                                 <div class="flex items-center justify-between text-xs font-mono text-neutral-500">
                                     <span>Application SaaS</span>
@@ -574,7 +574,7 @@
                         </article>
 
                         <!-- Project 5: TrailMap -->
-                        <article class="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-6 flex flex-col justify-between shadow-xs hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
+                        <article class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-6 flex flex-col justify-between shadow-xs">
                             <div>
                                 <div class="flex items-center justify-between text-xs font-mono text-neutral-500">
                                     <span data-lang="fr">Application mobile</span>
@@ -621,7 +621,7 @@
 
             <!-- Experience & Education Section: Clean Resume layout -->
             <section id="experience" class="py-16 sm:py-20 border-b border-neutral-200/80 dark:border-neutral-800/80">
-                <div class="mb-10">
+                <div class="section-heading mb-10">
                     <div class="text-xs font-mono uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
                         02 / <span data-lang="fr">Parcours</span><span data-lang="en" class="hidden">Experience</span>
                     </div>
@@ -752,7 +752,7 @@
 
             <!-- Tech Stack Section -->
             <section id="competences" class="py-16 sm:py-20 border-b border-neutral-200/80 dark:border-neutral-800/80">
-                <div class="mb-10">
+                <div class="section-heading mb-10">
                     <div class="text-xs font-mono uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
                         03 / <span data-lang="fr">Compétences</span><span data-lang="en" class="hidden">Stack</span>
                     </div>
@@ -764,7 +764,7 @@
 
                 <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     
-                    <div class="p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
+                    <div class="portfolio-card p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
                         <div class="text-xs font-mono text-neutral-500 mb-2 font-semibold">Backend</div>
                         <div class="font-bold text-sm text-neutral-900 dark:text-white">PHP & Frameworks</div>
                         <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Architecture MVC, API RESTful</p>
@@ -776,7 +776,7 @@
                         </div>
                     </div>
 
-                    <div class="p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
+                    <div class="portfolio-card p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
                         <div class="text-xs font-mono text-neutral-500 mb-2 font-semibold">Frontend</div>
                         <div class="font-bold text-sm text-neutral-900 dark:text-white">Interface & UI</div>
                         <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Design moderne & réactif</p>
@@ -788,7 +788,7 @@
                         </div>
                     </div>
 
-                    <div class="p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
+                    <div class="portfolio-card p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
                         <div class="text-xs font-mono text-neutral-500 mb-2 font-semibold">Données</div>
                         <div class="font-bold text-sm text-neutral-900 dark:text-white">Bases de Données</div>
                         <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Schémas & requêtes optimisées</p>
@@ -799,7 +799,7 @@
                         </div>
                     </div>
 
-                    <div class="p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
+                    <div class="portfolio-card p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
                         <div class="text-xs font-mono text-neutral-500 mb-2 font-semibold">DevOps & Outils</div>
                         <div class="font-bold text-sm text-neutral-900 dark:text-white">Workflow & Déploiement</div>
                         <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Automatisation et livraison</p>
@@ -846,10 +846,10 @@
                         </p>
                         <p>
                             <span data-lang="fr">
-                                Je m'intéresse particulièrement à la <strong>Data et à l'intelligence artificielle</strong> et souhaite poursuivre mes études par un Master dans ce domaine. Je continue d'apprendre et de m'améliorer chaque jour, et je suis à la recherche d'un <strong>stage de 4 à 6 mois dès avril 2027</strong>.
+                                Je m'intéresse particulièrement à la <strong>Data et à l'intelligence artificielle</strong> et souhaite poursuivre mes études par un Master dans ce domaine. Je continue d'apprendre et de m'améliorer chaque jour, et je suis à la recherche d'un <strong>stage de 6 mois dès avril 2027</strong>.
                             </span>
                             <span data-lang="en" class="hidden">
-                                I am particularly interested in <strong>Data and Artificial Intelligence</strong> and plan to pursue a Master's degree in this field. I keep learning and improving every day, and I am currently looking for a <strong>4 to 6-month internship starting in April 2027</strong>.
+                                I am particularly interested in <strong>Data and Artificial Intelligence</strong> and plan to pursue a Master's degree in this field. I keep learning and improving every day, and I am currently looking for a <strong>6-month internship starting in April 2027</strong>.
                             </span>
                         </p>
                         <div class="pt-2 flex flex-wrap gap-4 text-xs font-medium text-neutral-600 dark:text-neutral-400">
@@ -863,7 +863,7 @@
 
             <!-- Contact Section -->
             <section id="contact" class="py-16 sm:py-24">
-                <div class="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-8 sm:p-12 shadow-xs">
+                <div class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-8 sm:p-12 shadow-sm">
                     <div class="grid md:grid-cols-12 gap-10 items-center">
                         
                         <div class="md:col-span-6">
@@ -876,10 +876,10 @@
                             </h2>
                             <p class="mt-3 text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed">
                                 <span data-lang="fr">
-                                    Je suis à votre disposition pour échanger au sujet d'un stage de fin d'études de 4 à 6 mois dès Avril 2027 ou d'un projet technique.
+                                    Je suis à votre disposition pour échanger au sujet d'un stage de fin d'études de 6 mois dès Avril 2027 ou d'un projet technique.
                                 </span>
                                 <span data-lang="en" class="hidden">
-                                    Feel free to reach out to discuss a 4 to 6-month final internship starting April 2027 or an engineering collaboration.
+                                    Feel free to reach out to discuss a 6-month final internship starting April 2027 or an engineering collaboration.
                                 </span>
                             </p>
 
@@ -957,7 +957,7 @@
 
         <!-- Footer -->
         <footer class="border-t border-neutral-200/80 dark:border-neutral-800/80 bg-white dark:bg-neutral-950 py-8 transition-colors">
-            <div class="mx-auto max-w-5xl px-5 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400">
+            <div class="mx-auto max-w-6xl px-5 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400">
                 <div class="flex items-center gap-2">
                     <span class="font-bold text-neutral-900 dark:text-white">Josh Kaninda</span>
                     <span>© {{ date('Y') }}</span>
