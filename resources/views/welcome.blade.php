@@ -237,16 +237,14 @@
                             </span>
                         </h1>
 
-                        <!-- Bio -->
-                        <p class="mt-5 max-w-2xl text-base sm:text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                            <span data-lang="fr">
-                                En fin de Bachelor Concepteur Développeur d'Applications à l'ECE Paris, je recherche un stage de 6 mois dès avril 2027. J'ai plus d'un an d'expérience en développement web, notamment sur la migration d'un backend vers <strong>Laravel 11</strong> et le développement avec <strong>PHP</strong>, <strong>React</strong> et <strong>Python</strong>. Je travaille également avec <strong>TypeScript</strong>, <strong>React Native</strong> et <strong>SQL</strong>.
-                            </span>
-                            <span data-lang="en" class="hidden">
-                                Final-year Application Development student at ECE Paris, seeking a 6-month internship starting in April 2027. I have over a year of web development experience, including migrating a backend to <strong>Laravel 11</strong> and building features with <strong>PHP</strong>, <strong>React</strong>, and <strong>Python</strong>. I also work with <strong>TypeScript</strong>, <strong>React Native</strong>, and <strong>SQL</strong>.
-                            </span>
-                        </p>
-
+                        <!-- Subtitle -->
+                        <span data-lang="fr">
+                             Développeur web Full-stack en dernière année de Bachelor Concepteur Développeur d'Applications à l'ECE Paris, je recherche un stage de 6 mois dès avril 2027. Avec plus d'un an d'expérience concrète — dont la migration d'un backend vers <strong>Laravel 11</strong> — je conçois des solutions logicielles efficaces et élégantes avec <strong>PHP</strong>, <strong>Python</strong>, <strong>React</strong>, <strong>React Native</strong>, <strong>TypeScript</strong> et <strong>SQL</strong>, avec un fort intérêt pour la <strong>Data</strong> et l'<strong>Intelligence Artificielle</strong>.
+                        </span>
+                        <span data-lang="en" class="hidden">
+                            Full-stack web developer in the final year of the Bachelor Concepteur Développeur d'Applications at ECE Paris, I am seeking a 6-month internship starting April 2027. With over a year of hands-on experience — including migrating a backend to <strong>Laravel 11</strong> — I design efficient and elegant software solutions using <strong>PHP</strong>, <strong>Python</strong>, <strong>React</strong>, <strong>React Native</strong>, <strong>TypeScript</strong>, and <strong>SQL</strong>, with a strong interest in <strong>Data</strong> and <strong>Artificial Intelligence</strong>.
+                        </span>
+                         
                         <!-- Internship highlight callout -->
                         <div class="mt-6 max-w-xl p-4 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-sm shadow-sm">
                             <div class="flex items-start gap-3">
@@ -957,7 +955,7 @@
 
         <!-- Footer -->
         <footer class="border-t border-neutral-200/80 dark:border-neutral-800/80 bg-white dark:bg-neutral-950 py-8 transition-colors">
-            <div class="mx-auto max-w-6xl px-5 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400">
+            <div class="mx-auto max-w-5xl px-5 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400">
                 <div class="flex items-center gap-2">
                     <span class="font-bold text-neutral-900 dark:text-white">Josh Kaninda</span>
                     <span>© {{ date('Y') }}</span>
