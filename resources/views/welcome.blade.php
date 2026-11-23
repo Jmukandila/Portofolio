@@ -83,7 +83,7 @@
                 </svg>
             </button>
             <p class="pr-6 text-sm font-bold">
-                <span data-lang="fr">Un stage à me proposer ?</span>
+                <span data-lang="fr">Une opportunité de stage ?</span>
                 <span data-lang="en" class="hidden">Have an internship opportunity?</span>
             </p>
             <p class="mt-1 text-xs leading-relaxed text-neutral-600 dark:text-neutral-400">
