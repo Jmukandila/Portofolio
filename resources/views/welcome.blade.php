@@ -54,7 +54,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="bg-[#fafafa] dark:bg-[#09090b] text-neutral-900 dark:text-neutral-100 antialiased selection:bg-neutral-900 selection:text-white dark:selection:bg-white dark:selection:text-neutral-950 min-h-screen">
-        
+
         <!-- Toast Notification -->
         <div id="toast-notification" class="fixed bottom-6 right-6 z-50 transform translate-y-4 opacity-0 pointer-events-none transition-all duration-200 rounded-xl bg-neutral-950 text-white dark:bg-white dark:text-neutral-950 px-4 py-2.5 text-xs font-semibold shadow-xl border border-neutral-800 dark:border-neutral-200 flex items-center gap-2">
             <span>Notification</span>
@@ -109,7 +109,7 @@
                             Josh Kaninda
                         </span>
                         <span class="text-[11px] text-neutral-500 dark:text-neutral-400 font-mono">
-                            ECE Paris • Bac+3 
+                            ECE Paris • Bac+3
                         </span>
                     </div>
                 </a>
@@ -140,7 +140,7 @@
 
                 <!-- Utilities: Language Toggle, Theme Toggle, CV CTA -->
                 <div class="flex items-center gap-2 sm:gap-3">
-                    
+
                     <!-- Language Switcher (Segmented Button) -->
                     <div class="flex items-center p-0.5 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-100 dark:bg-neutral-900 text-xs font-medium">
                         <button type="button" data-btn-lang="fr" class="lang-btn px-2 py-0.5 rounded-md transition-all" aria-label="Français">
@@ -213,11 +213,11 @@
         </header>
 
         <main class="mx-auto max-w-6xl px-5 sm:px-6">
-            
+
             <!-- Hero Section: Clean, authentic human presentation -->
             <section id="accueil" class="hero-section pt-14 pb-16 sm:pt-20 sm:pb-20 border-b border-neutral-200/80 dark:border-neutral-800/80">
                 <div class="grid items-center gap-10 md:grid-cols-[1.25fr_0.75fr]">
-                    
+
                     <div>
                         <!-- Pill -->
                         <div class="inline-flex items-center gap-2 rounded-full border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 px-3 py-1 text-xs text-neutral-600 dark:text-neutral-400 font-medium shadow-2xs">
@@ -244,7 +244,7 @@
                         <span data-lang="en" class="hidden">
                             Full-stack web developer in the final year of the Bachelor Concepteur Développeur d'Applications at ECE Paris, I am seeking a 6-month internship starting April 2027. With over a year of hands-on experience — including migrating a backend to <strong>Laravel 11</strong> — I design efficient and elegant software solutions using <strong>PHP</strong>, <strong>Python</strong>, <strong>React</strong>, <strong>React Native</strong>, <strong>TypeScript</strong>, and <strong>SQL</strong>, with a strong interest in <strong>Data</strong> and <strong>Artificial Intelligence</strong>.
                         </span>
-                         
+
                         <!-- Internship highlight callout -->
                         <div class="mt-6 max-w-xl p-4 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-sm shadow-sm">
                             <div class="flex items-start gap-3">
@@ -291,9 +291,9 @@
                     <div class="flex justify-center md:justify-end">
                         <div class="profile-card w-full max-w-[300px] sm:max-w-[350px] rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-3">
                             <div class="overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-800 aspect-[4/5] relative">
-                                <img 
-                                    src="{{ asset('images/josh-kaninda.jpg') }}" 
-                                    alt="Josh Kaninda" 
+                                <img
+                                    src="{{ asset('images/josh-kaninda.jpg') }}"
+                                    alt="Josh Kaninda"
                                     class="w-full h-full object-cover object-top hover:scale-102 transition-transform duration-300"
                                 >
                             </div>
@@ -331,7 +331,7 @@
                 </div>
 
                 <div class="space-y-8">
-                    
+
                     <!-- Project 1: Smart Cyberspace Inc -->
                     <article class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden shadow-xs">
                         <div class="grid md:grid-cols-12 gap-0">
@@ -345,9 +345,9 @@
                                         <span class="w-2 h-2 rounded-full bg-neutral-300 dark:bg-neutral-700"></span>
                                         <span class="ml-2 font-mono text-[10px] text-neutral-500">https://smartcyberspace.ca</span>
                                     </div>
-                                    <img 
-                                        src="{{ asset('images/projects/smartcyberspace.png') }}" 
-                                        alt="Smart Cyberspace Canada" 
+                                    <img
+                                        src="{{ asset('images/projects/smartcyberspace.png') }}"
+                                        alt="Smart Cyberspace Canada"
                                         class="w-full h-auto object-cover object-top"
                                         loading="lazy"
                                     >
@@ -374,6 +374,7 @@
                                             Remote experience from France with this Ontario-based company: migrated the backend architecture to Laravel 11, developed business modules with Laravel and React, and designed MySQL data models.
                                         </span>
                                     </p>
+
                                     <div class="mt-4 flex flex-wrap gap-1.5 font-mono text-[11px]">
                                         <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">Laravel 11</span>
                                         <span class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">React</span>
@@ -383,10 +384,10 @@
                                 </div>
 
                                 <div class="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800">
-                                    <a 
-                                        href="https://smartcyberspace.ca/" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer" 
+                                    <a
+                                        href="https://smartcyberspace.ca/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         class="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-900 dark:text-white hover:underline"
                                     >
                                         <span data-lang="fr">Visiter smartcyberspace.ca</span>
@@ -410,9 +411,9 @@
                                         <span class="w-2 h-2 rounded-full bg-neutral-300 dark:bg-neutral-700"></span>
                                         <span class="ml-2 font-mono text-[10px] text-neutral-500">https://www.a-nmi.net</span>
                                     </div>
-                                    <img 
-                                        src="{{ asset('images/projects/anmi.png') }}" 
-                                        alt="ANMI Consulting" 
+                                    <img
+                                        src="{{ asset('images/projects/anmi.png') }}"
+                                        alt="ANMI Consulting"
                                         class="w-full h-auto object-cover object-top"
                                         loading="lazy"
                                     >
@@ -448,10 +449,10 @@
                                 </div>
 
                                 <div class="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800">
-                                    <a 
-                                        href="https://www.a-nmi.net/" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer" 
+                                    <a
+                                        href="https://www.a-nmi.net/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         class="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-900 dark:text-white hover:underline"
                                     >
                                         <span data-lang="fr">Visiter a-nmi.net</span>
@@ -475,9 +476,9 @@
                                         <span class="w-2 h-2 rounded-full bg-neutral-300 dark:bg-neutral-700"></span>
                                         <span class="ml-2 font-mono text-[10px] text-neutral-500">https://dialogue-edu.org</span>
                                     </div>
-                                    <img 
-                                        src="{{ asset('images/projects/dialogue-edu.png') }}" 
-                                        alt="Dialogue & Éducation en Afrique" 
+                                    <img
+                                        src="{{ asset('images/projects/dialogue-edu.png') }}"
+                                        alt="Dialogue & Éducation en Afrique"
                                         class="w-full h-auto object-cover object-top"
                                         loading="lazy"
                                     >
@@ -513,10 +514,10 @@
                                 </div>
 
                                 <div class="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800">
-                                    <a 
-                                        href="https://dialogue-edu.org/" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer" 
+                                    <a
+                                        href="https://dialogue-edu.org/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         class="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-900 dark:text-white hover:underline"
                                     >
                                         <span data-lang="fr">Visiter dialogue-edu.org</span>
@@ -530,7 +531,7 @@
 
                     <!-- Two-column grid for open source / web apps -->
                     <div class="grid sm:grid-cols-2 gap-8">
-                        
+
                         <!-- Project 4: Syndic Connect -->
                         <article class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-6 flex flex-col justify-between shadow-xs">
                             <div>
@@ -558,10 +559,10 @@
                             </div>
 
                             <div class="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800">
-                                <a 
-                                    href="https://github.com/Jmukandila/Copro-Smart-Manager" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer" 
+                                <a
+                                    href="https://github.com/Jmukandila/Copro-Smart-Manager"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     class="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-900 dark:text-white hover:underline"
                                 >
                                     <span data-lang="fr">Voir le code sur GitHub</span>
@@ -599,10 +600,10 @@
                             </div>
 
                             <div class="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800">
-                                <a 
+                                <a
                                     href="https://github.com/Jmukandila/trailmap"
-                                    target="_blank" 
-                                    rel="noopener noreferrer" 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     class="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-900 dark:text-white hover:underline"
                                 >
                                     <span data-lang="fr">Voir le code sur GitHub</span>
@@ -630,7 +631,7 @@
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-12">
-                    
+
                     <!-- Experiences Column -->
                     <div>
                         <h3 class="text-xs font-mono uppercase tracking-wider text-neutral-400 dark:text-neutral-500 mb-6 font-semibold">
@@ -639,7 +640,7 @@
                         </h3>
 
                         <div class="space-y-8 border-l border-neutral-200 dark:border-neutral-800 pl-5">
-                            
+
                             <!-- Smart Cyberspace -->
                             <div class="relative">
                                 <span class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-neutral-900 dark:bg-white"></span>
@@ -656,20 +657,31 @@
                                 <div class="text-xs text-neutral-600 dark:text-neutral-400 font-medium mt-0.5">
                                     <a href="https://smartcyberspace.ca/" target="_blank" rel="noopener noreferrer" class="hover:underline text-neutral-900 dark:text-white">Smart Cyberspace Inc ↗</a> • <span data-lang="fr">Ontario, Canada (télétravail)</span><span data-lang="en" class="hidden">Ontario, Canada (remote)</span>
                                 </div>
-                                <ul class="mt-2.5 space-y-1.5 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                                    <li>
-                                        <span data-lang="fr">• Développement de modules métier avec Laravel et d'interfaces avec React.</span>
-                                        <span data-lang="en" class="hidden">• Developed business modules with Laravel and interfaces with React.</span>
-                                    </li>
-                                    <li>
-                                        <span data-lang="fr">• Migration de l'architecture backend vers Laravel 11.</span>
-                                        <span data-lang="en" class="hidden">• Migrated the backend architecture to Laravel 11.</span>
-                                    </li>
-                                    <li>
-                                        <span data-lang="fr">• Modélisation du schéma relationnel MySQL et optimisation de requêtes complexes.</span>
-                                        <span data-lang="en" class="hidden">• Designed the MySQL relational schema and optimized complex queries.</span>
-                                    </li>
-                                </ul>
+                                <p class="mt-2.5 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                    <span data-lang="fr">
+                                        Migration & Architecture : Refonte et migration d'une base de code existante vers Laravel 11, avec mise en place d'une architecture modulaire, gestion de l'authentification et exposition d'API REST sécurisées.
+                                    </span>
+
+                                    <span data-lang="en" class="hidden">
+                                        Migration & Architecture: Refactored and migrated an existing codebase to Laravel 11, implementing a modular architecture, authentication management, and secure REST API exposure.
+                                    </span>
+
+                                    <span data-lang="fr" class="block">
+                                        Développement Applicatif : Implémentation de fonctionnalités métiers sur mesure en PHP (Laravel) et développement de composants front-end dynamiques en React (gestion d'état, appels asynchrones, UX fluide).
+                                    </span>
+
+                                    <span data-lang="en" class="hidden">
+                                        Application Development: Implemented custom business features in PHP (Laravel) and developed dynamic front-end components in React (state management, asynchronous calls, smooth UX).
+                                    </span>
+
+                                    <span data-lang="fr" class="block">
+                                        Base de Données & Performance : Conception du modèle conceptuel et logique de données (MCD/MLD) sous MySQL, optimisation des requêtes critiques et garant de l'intégrité des données en production sous Git.
+                                    </span>
+
+                                    <span data-lang="en" class="hidden">
+                                        Database & Performance: Designed conceptual and logical data models (MCD/MLD) under MySQL, optimized critical queries, and ensured data integrity in production under Git.
+                                    </span>
+                                </p>
                             </div>
 
                             <!-- SMIRL Technologies -->
@@ -690,12 +702,12 @@
                                 </div>
                                 <ul class="mt-2.5 space-y-1.5 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
                                     <li>
-                                        <span data-lang="fr">• Développement et intégration continue des fonctionnalités d'une plateforme d'orientation scolaire.</span>
-                                        <span data-lang="en" class="hidden">• Developed and continuously integrated features for a student guidance platform.</span>
+                                        <span data-lang="fr">• Développement Produit : Conception, développement et intégration complète de 5 nouvelles fonctionnalités métiers sur une plateforme web dédiée à l'orientation scolaire et à la mobilité internationale (gestion des parcours, suivi des dossiers et espaces utilisateurs).</span>
+                                        <span data-lang="en" class="hidden">• Product Development: Designed, developed, and fully integrated 5 new business features into a web platform for educational guidance and international mobility (pathway management, application tracking, and user portals).</span>
                                     </li>
                                     <li>
-                                        <span data-lang="fr">• Optimisation des requêtes en base de données et amélioration de l'ergonomie UX/UI.</span>
-                                        <span data-lang="en" class="hidden">• Optimized database queries and improved the UX/UI.</span>
+                                        <span data-lang="fr">• Performance & UX : Refonte de l'expérience utilisateur (navigation fluide, interfaces responsives) couplée à l'optimisation des requêtes SQL et de l'indexation, réduisant significativement les temps de chargement des pages clés.</span>
+                                        <span data-lang="en" class="hidden">• Performance & UX: Redesigned the user experience with smoother navigation and responsive interfaces, while optimizing SQL queries and indexing to significantly reduce load times on key pages.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -711,7 +723,7 @@
                         </h3>
 
                         <div class="space-y-8 border-l border-neutral-200 dark:border-neutral-800 pl-5">
-                            
+
                             <!-- ECE Paris -->
                             <div class="relative">
                                 <span class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-neutral-900 dark:bg-white"></span>
@@ -761,7 +773,7 @@
                 </div>
 
                 <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    
+
                     <div class="portfolio-card p-5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
                         <div class="text-xs font-mono text-neutral-500 mb-2 font-semibold">Backend</div>
                         <div class="font-bold text-sm text-neutral-900 dark:text-white">PHP & Frameworks</div>
@@ -863,7 +875,7 @@
             <section id="contact" class="py-16 sm:py-24">
                 <div class="portfolio-card rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-8 sm:p-12 shadow-sm">
                     <div class="grid md:grid-cols-12 gap-10 items-center">
-                        
+
                         <div class="md:col-span-6">
                             <div class="text-xs font-mono uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
                                 05 / Contact
@@ -884,9 +896,9 @@
                             <div class="mt-6 space-y-3 text-xs sm:text-sm">
                                 <div class="flex items-center justify-between p-3 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950">
                                     <span class="font-mono text-neutral-900 dark:text-white">josh.kaninda@edu.ece.fr</span>
-                                    <button 
-                                        type="button" 
-                                        onclick="copyEmail('josh.kaninda@edu.ece.fr')" 
+                                    <button
+                                        type="button"
+                                        onclick="copyEmail('josh.kaninda@edu.ece.fr')"
                                         class="px-2.5 py-1 rounded text-xs font-semibold bg-neutral-900 text-white dark:bg-white dark:text-neutral-950 hover:opacity-85 transition-opacity"
                                     >
                                         <span data-lang="fr">Copier</span>
@@ -908,37 +920,37 @@
                                         <span data-lang="fr">Votre Nom / Entreprise</span>
                                         <span data-lang="en" class="hidden">Your Name / Organization</span>
                                     </label>
-                                    <input 
-                                        type="text" 
-                                        name="name" 
-                                        required 
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        required
                                         class="w-full px-3 py-2 rounded-lg border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white text-xs focus:outline-none focus:border-neutral-900 dark:focus:border-white transition-colors"
                                         placeholder="Ex: Entreprise Tech / Recruteur"
                                     >
                                 </div>
                                 <div>
                                     <label class="block text-xs font-medium text-neutral-700 dark:text-neutral-300 mb-1">Email</label>
-                                    <input 
-                                        type="email" 
-                                        name="email" 
-                                        required 
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        required
                                         class="w-full px-3 py-2 rounded-lg border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white text-xs focus:outline-none focus:border-neutral-900 dark:focus:border-white transition-colors"
                                         placeholder="contact@entreprise.com"
                                     >
                                 </div>
                                 <div>
                                     <label class="block text-xs font-medium text-neutral-700 dark:text-neutral-300 mb-1">Message</label>
-                                    <textarea 
-                                        name="message" 
-                                        rows="3" 
-                                        required 
+                                    <textarea
+                                        name="message"
+                                        rows="3"
+                                        required
                                         class="w-full px-3 py-2 rounded-lg border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white text-xs focus:outline-none focus:border-neutral-900 dark:focus:border-white transition-colors resize-none"
                                         placeholder="Proposition de stage de 6 mois, question ou projet..."
                                     ></textarea>
                                 </div>
                                 <div id="form-status" class="hidden p-2 rounded text-xs bg-neutral-200 dark:bg-neutral-800 font-medium"></div>
-                                <button 
-                                    type="submit" 
+                                <button
+                                    type="submit"
                                     class="w-full py-2.5 rounded-lg bg-neutral-900 text-white dark:bg-white dark:text-neutral-950 font-semibold text-xs hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
                                 >
                                     <span data-lang="fr">Envoyer le message</span>
